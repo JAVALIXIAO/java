@@ -4,71 +4,20 @@ java课程作业项目仓库
 # 阅读程序
 
 ##实验目的 
-用类描述计算机中CPU的速度和硬盘的容量
+用类描述计算机中CPU的速度和硬盘的容量.要求Java应用程序有4个类，名字分别为PC、CPU、HardDisk和Test，其中Test是主类.
 
 ##实验过程
-CPU.java
-package baoyi;
-
-public class CPU {
-	int speed;
-	void setSpeed(int m) {
-		speed=m;
-	}
-	int getSpeed() {
-		return speed;
-	}
-
-}
-
-PC.java
-package baoyi;
-
-public class CPU {
-	int speed;
-	void setSpeed(int m) {
-		speed=m;
-	}
-	int getSpeed() {
-		return speed;
-	}
-
-}
-
-HardDisk.java
-package baoyi;
-
-public class HardDisk {
-	int amount;
-	void setAmount(int m){
-		amount=m;
-	}
-	int getAmount() {
-		return amount;
-	}
-
-}
-
-Test.java
-package baoyi;
-
-public class Test {
-
-	public static void main(String[] args) {
-		CPU cpu=new CPU();
-		HardDisk disk=new HardDisk();
-		PC pc=new PC();
-		cpu.setSpeed(2200);
-		disk.setAmount(200);
-		pc.setCPU(cpu);
-		pc.setHardDisk(disk);
-		pc.show();
-		
-		// TODO Auto-generated method stub
-
-	}
-
-}
+·CPU类要求：getSpeed（）返回speed的值，要求getSpeed（int m）方法将参数m的值赋值给speed.
+·HardDisk类要求：getAmount（）返回amount的值，要求setAmount（int m）方法将参数m的值赋值给amount.
+·PC类要求：setCPU（CPU c）将参数c的值赋值给CPU，要求setHardDisk（HardDsik h）方法将参数h的值赋值给HD，要求show（）方法能显示CPU的速度
+                 好人硬盘的容量.
+·主类Tset的要求：
+（1）main方法中创建一个CPU对象cpu，cpu将自己的speed设置为2200.
+（2）main方法中创建一个HardDisk对象disk，disk将自己的amount设置为200.
+（3）main方法中创建一个PC对象pc.
+（4）pc调用setCPU(CPU c)方法，调用时实参是cpu.
+（5）pc调用setHardDisk（HardDisk h）方法，调用时实参是disk.
+（6）pc调用show（）方法.
 
 ##核心方法
 1.setSpeed(int)
