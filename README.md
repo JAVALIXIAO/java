@@ -28,13 +28,21 @@ java课程作业项目仓库
 ##核心方法
 
 1.setSpeed(int )
+
 2.getSpeed()
+
 3.setCPU(CPU)
+
 4.setAmount(int m)
+
 5.getAmount()
+
 6.setCPU(CPU c)
+
 7.setHardDisk(HardDisk h)
+
 8.show()
+
 9.main方法
 
 ##实验结果
