@@ -19,10 +19,15 @@ java课程作业项目仓库
 4·主类Tset的要求：
 
 （1）main方法中创建一个CPU对象cpu，cpu将自己的speed设置为2200.
+
 （2）main方法中创建一个HardDisk对象disk，disk将自己的amount设置为200.
+
 （3）main方法中创建一个PC对象pc.
+
 （4）pc调用setCPU(CPU c)方法，调用时实参是cpu.
+
 （5）pc调用setHardDisk（HardDisk h）方法，调用时实参是disk.
+
 （6）pc调用show（）方法.
 
 ##核心方法
@@ -48,6 +53,7 @@ java课程作业项目仓库
 ##实验结果
 
 cpu的速度2200
+
 硬盘的容量200
 
 ##实验感想
