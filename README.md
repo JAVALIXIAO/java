@@ -11,9 +11,13 @@ java课程作业项目仓库
 ##实验过程
 
 1.CPU类要求：getSpeed（）返回speed的值，要求getSpeed（int m）方法将参数m的值赋值给speed.
+
 2·HardDisk类要求：getAmount（）返回amount的值，要求setAmount（int m）方法将参数m的值赋值给amount.
+
 3·PC类要求：setCPU（CPU c）将参数c的值赋值给CPU，要求setHardDisk（HardDsik h）方法将参数h的值赋值给HD，要求show（）方法能显示CPU的速度和硬盘的容量.
+
 4·主类Tset的要求：
+
 （1）main方法中创建一个CPU对象cpu，cpu将自己的speed设置为2200.
 （2）main方法中创建一个HardDisk对象disk，disk将自己的amount设置为200.
 （3）main方法中创建一个PC对象pc.
